@@ -1,0 +1,15 @@
+import re
+t=int(input())
+for i in range(t):
+     try:
+        s=input()
+        re.compile(s)
+        output=(True)
+     except re.error:
+        output=(False)
+     print(output)   
+     
+     
+
+
+     
